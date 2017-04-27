@@ -1,0 +1,286 @@
+.flexslider {
+    position: relative;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+}
+
+.overlay {
+    background: rgba(0,0,0,0.3);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+}
+
+.flex-caption {
+    position: absolute;
+    wdith: 100%;
+    margin-left: 15px;
+    left: 0;
+    bottom: 100px;
+    background-color: #fff;
+    padding: 10px;
+    z-index: 10;
+    text-align: center;
+}
+
+.flex-caption span.price {
+    background: #e54747;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 28px;
+    padding: 15px 20px;
+    display: inline-block;
+}
+
+.flex-caption h3.title {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 30px 0 22px 0;
+}
+
+.flex-caption a.slider-btn {
+    background: #8d0100;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 12px 35px;
+    display: inline-block;
+    margin-top: 30px;
+}
+
+.flex-caption a.slider-btn:hover {
+    background: #90be2c;
+}
+
+a.flex-prev,a.flex-next {
+    width: 20px;
+    height: 36px;
+    background-color: #8d0100;
+    display: inline-block;
+    line-height: 36px;
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    z-index: 99;
+    top: 50%;
+    opacity: 0.5;
+}
+
+a.flex-prev:hover,a.flex-next:hover {
+    background: #fff;
+    color: #8d0100;
+    opacity: 1;
+}
+
+.home a.flex-prev, .home a.flex-next {
+  display: none;
+}
+
+.home:hover a.flex-prev, .home:hover a.flex-next {
+  display: block;
+}
+
+
+a.flex-prev {
+    left: 0;
+}
+
+a.flex-next {
+    right: 0;
+}
+
+h3.widget-title {
+    font-size: 28px;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.price{
+  font-size:18px;
+  margin-bottom:10px;
+  color:#8d0100;
+}
+.price span{
+font-size:22px;
+font-weight:bold;
+
+}
+
+.sample-thumb {
+    overflow: hidden;
+}
+
+.sample-thumb img {
+    width: 100%;
+    height: initial;
+}
+
+.page-top {
+    width: 100%;
+    height: 230px;
+    background: #eee;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+
+
+@media screen and (min-width: 240px) {
+    .our-listing {
+        margin-top: 50px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .our-listing {
+        margin-top: 30px;
+    }
+}
+
+
+
+.owl-next,.owl-prev {
+    position: absolute;
+    top: 50%;
+    margin-top: -46px;
+    width: 20px;
+    height: 36px;
+    background-color: #8d0100;
+    color: #fff;
+    text-align: center;
+    line-height: 36px;
+    opacity: 0.5;
+}
+.owl-next:hover,.owl-prev:hover {
+    opacity: 1;
+}
+
+.owl-next {
+    right: -40px;
+}
+
+@media screen and (min-width: 240px) {
+    .owl-next {
+        right: 15px;
+    }
+}
+
+@media screen and (min-width: 960px) {
+    .owl-next {
+        right: 13px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .owl-next {
+        right: -40;
+    }
+}
+
+.owl-prev {
+    left: -40px;
+}
+
+@media screen and (min-width: 240px) {
+    .owl-prev {
+        left: 15px;
+    }
+}
+
+@media screen and (min-width: 960px) {
+    .owl-prev {
+        left: 15px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .owl-prev {
+        left: -40;
+    }
+}
+
+
+@media screen and (min-width: 240px) {
+    .act-btn {
+        margin-top: 30px;
+    }
+
+    .act-btn .title {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .act-btn {
+        margin-top: 30px;
+    }
+
+    .act-btn .title {
+        display: block;
+    }
+
+    .act-btn .title span {
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .act-btn {
+        margin-top: 0;
+    }
+}
+
+
+@media screen and (min-width: 240px) {
+    .partner-item {
+        border-left: 0;
+    }
+
+    .partner-item.last {
+        border-right: 0;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .partner-item {
+        border-left: 1px solid #d4d4d4;
+    }
+
+    .partner-item.last {
+        border-right: 1px solid #d4d4d4;
+    }
+}
+
+.detail-image-list {
+  margin-top: 12px;
+  margin-right: -1%;
+}
+
+.detail-image-list a {
+  width: 24%;
+  display: block;
+  float: left;
+  margin: 0 1% 1% 0;
+  cursor: pointer;
+}
+
+.detail-image-list img {
+  width: 100%;
+}
+
+
+
+.imgthumbs{
+  margin:10px 5px 0 0;
+  padding:0 5px 0 0;
+  background-color:#CCC;
+}
+.imgthumbs img{
+  width:130px;
+}
+
